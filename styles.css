@@ -1,0 +1,60 @@
+body {
+color: red;
+margin: 0px;
+font-family: "Playwrite CU", system-ui;
+background: black;
+margin-bottom: 50px;
+}
+
+
+
+header {
+border-bottom: solid 2px  rgb(0, 255, 21);
+padding:  20px;
+font-size: 30px;
+color: rgb(0, 255, 21);
+
+}
+
+.chamada {
+background-color: rgba(0, 0, 0, 0.993);
+padding-bottom: 20px;
+padding-top: 20px;
+display: flex;
+justify-content: center
+}
+
+.chamada-texto {
+    margin-right: 5%;
+} 
+h1 {
+    font-size: 30px;
+}p{
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+padding-left: 20px;
+padding-right: 20px;
+}
+   
+.categoria-videos img {
+opacity: 0.5;
+height: 200px;
+
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid green;
+}
+
+.categoria h2 {
+    color: rgb(33, 51, 74)
+}
+
